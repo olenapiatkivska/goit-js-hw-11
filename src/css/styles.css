@@ -125,6 +125,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  border: 1px solid #808080;
   transition: border 250ms linear;
 }
 .form-input:hover {
@@ -143,7 +144,6 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
-  /* block-size: border-box; */
   transition: background-color 250ms linear;
 }
 .form-btn:hover,
@@ -168,7 +168,7 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  min-width: 1128px;
+  max-width: 1128px;
   gap: 24px;
   margin: 0 auto;
 }

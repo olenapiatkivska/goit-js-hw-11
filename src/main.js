@@ -49,6 +49,7 @@ formElem.addEventListener('submit', e => {
       loaderElem.classList.add('visually-hidden');
     })
     .catch(err => {
+      loaderElem.classList.add('visually-hidden');
       iziToast.warning({
         iconUrl: cautionSvg,
         position: 'topRight',
