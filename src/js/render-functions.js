@@ -1,9 +1,9 @@
 export function markUp(imgs) {
   return imgs.hits
     .map(img => {
-      return `<li>
+      return `<li class="gallery-item">
   <a class="img-link" href="${img.largeImageURL}">
-    <img class="img-gallery" src="${img.webformatURL}" alt="${img.tags}" />
+    <img class="gallery-image" src="${img.webformatURL}" alt="${img.tags}" />
   </a>
   <ul class="img-list">
     <li class="img-item">
